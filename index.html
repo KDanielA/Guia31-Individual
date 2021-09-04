@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<style>
+    p[title]::before {content:attr(title)" - " attr(data-pais);
+    color:blue;
+    font-weight:bold;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-laptop-code"></i>VA18045</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-img">
+                        <p title="Historia" data-pais="Espana"><br>Era el 12 de octubre de 1492 cuando colon descubrio America</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="section-header text-left">
+                        <p>Datos sobre el integrante</p>
+                        <h2>Estudiante de Ing.Sistemas</h2>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                        Nombre: Vasquez Alegria Kevin Daniel<br>#Carnet: VA18045<br>Correo: VA18045@ues.edu.sv<br>Guia 31 Individual de TPI115
+                        </p>
+                        <p>
+                        Conclusiones: XML es fácil de manejar y a la vez es intuitivo en la forma de declarar las etiquetas y llevan un orden jerárquico, sin embargo, para lo que se requiere en la actualidad XML se queda atrás cuando se requiere crear sistemas modernos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class= "container">
+        <h1>Tabla con enlaces</h1>
+
+    <div class="card">
+        <div class="card-header">
+          Enlaces
+          <!--Boton Nuevo registro-->
+       
+         <br><br>
+         <!--Fin del boton nuevo registro-->
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            
+             <!--Inicio de la tabla-->
+            <table class="table text-center" >
+                <thead>
+                    <tr>
+                        <th>#Ejercicio</th>
+                        <th>#Guia</th>
+                        <th>Enlaces</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ejercicio1A</td>
+                        <td>Guia 31</td>
+                        <td><a type="button" 
+                        class="btn btn-dark " 
+                        data-toggle="tooltip" 
+                        data-placement="bottom"
+                        data-id-sitio="1" 
+                        href="xml/ejercicio1a.xml"
+                        title="Ir al sitio"> <i class="fas fa-edit"></i>  
+                        </a> 
+                        </td>
+                    </tr>
+                </tbody>
+    
+                <tbody>
+                    <tr>
+                        <td>Ejercicio2A</td>
+                        <td>Guia 31</td>
+                        <td><a type="button" 
+                        class="btn btn-dark " 
+                        data-toggle="tooltip" 
+                        data-placement="bottom"
+                        data-id-sitio="2" 
+                        href="xml/ejercicio1b.xml"
+                        title="Ir al sitio"> <i class="fas fa-edit"></i>  
+                        </a> 
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td>Ejercicio1B</td>
+                        <td>Guia 31</td>
+                        <td><a type="button" 
+                        class="btn btn-dark " 
+                        data-toggle="tooltip" 
+                        data-placement="bottom"
+                        data-id-sitio="3"
+                        href="xml/ejercicio2a.xml" 
+                        title="Ir al sitio"> <i class="fas fa-edit"></i>  
+                        </a> 
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td>Ejercicio2B</td>
+                        <td>Guia 31</td>
+                        <td><a type="button" 
+                        class="btn btn-dark " 
+                        data-toggle="tooltip" 
+                        data-placement="bottom"
+                        data-id-sitio="4"
+                        href="xml/ejercicio2b.xml" 
+                        title="Ir al sitio"> <i class="fas fa-edit"></i>  
+                        </a> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           <!--Final de la tabla-->
+
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+   
+
+       <!--Scripts JS-->
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

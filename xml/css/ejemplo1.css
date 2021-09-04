@@ -1,0 +1,20 @@
+fichero {
+    margin: 10rem;
+    border: 10px solid darkblue;
+    font-family: arial, helvetica, roboto, "new times roman", lato;
+}
+ficha{
+    text-align:center;
+    background-color:blue;
+    display:block;
+    border: 5px;
+} 
+nombre {
+    color:white; display:inline;
+} 
+apellido {
+    color:yellow; display:inline;
+}
+direccion {
+    color:greenyellow; display:auto;
+}

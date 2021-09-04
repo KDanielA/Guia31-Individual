@@ -1,0 +1,35 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM"
+			},
+			{
+				"@id":"2",
+				"@nombre":"San Miguel",
+				"cabecera":"San Miguel",
+				"habitantes":"295,921",
+				"altura":"129 MSNM",
+				"moneda":"Dolar Estadounidense",
+				"codigotelefonico":"+503",
+				"idioma":"Espanol"
+			},
+			{
+				"@id":"3",
+				"@nombre":"Usulutan",
+				"cabecera":"Usulutan",
+				"habitantes":"73,064",
+				"altura":"90 MSNM",
+				"moneda":"Dolar Estadounidense",
+				"codigotelefonico":"+503",
+				"idioma":"Espanol",
+				"superficie":"139.8km^2"
+			}
+		]
+	}
+}
